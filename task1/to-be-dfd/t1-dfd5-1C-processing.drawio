@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="wgJWR3M9nHI_vGEqZ99i">
+    <mxGraphModel dx="2190" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nTxmzcDtm8mqhIhiXQSY-2" edge="1" parent="1" source="qkEddjeKpwqqLYSyVCac-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nTxmzcDtm8mqhIhiXQSY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nTxmzcDtm8mqhIhiXQSY-4" connectable="0" parent="nTxmzcDtm8mqhIhiXQSY-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Платежные операции (RBAC)" vertex="1">
+          <mxGeometry relative="1" x="-0.5214" y="2" as="geometry">
+            <mxPoint x="50" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkEddjeKpwqqLYSyVCac-1" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=16;fontStyle=1" value="Бухгалтер" vertex="1">
+          <mxGeometry height="50" width="100" x="-10" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="nTxmzcDtm8mqhIhiXQSY-3" edge="1" parent="1" source="qkEddjeKpwqqLYSyVCac-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="nTxmzcDtm8mqhIhiXQSY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nTxmzcDtm8mqhIhiXQSY-6" connectable="0" parent="nTxmzcDtm8mqhIhiXQSY-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="приход/расход ТМЦ (RBAC)" vertex="1">
+          <mxGeometry relative="1" x="-0.0973" as="geometry">
+            <mxPoint x="-5" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkEddjeKpwqqLYSyVCac-26" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=16;fontStyle=1" value="Сотрудник склада" vertex="1">
+          <mxGeometry height="50" width="100" x="-10" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="nTxmzcDtm8mqhIhiXQSY-8" edge="1" parent="1" source="nTxmzcDtm8mqhIhiXQSY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nTxmzcDtm8mqhIhiXQSY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nTxmzcDtm8mqhIhiXQSY-1" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=16;fontStyle=1" value="API Gateway" vertex="1">
+          <mxGeometry height="50" width="100" x="250" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nTxmzcDtm8mqhIhiXQSY-13" edge="1" parent="1" source="nTxmzcDtm8mqhIhiXQSY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nTxmzcDtm8mqhIhiXQSY-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510.06" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTxmzcDtm8mqhIhiXQSY-14" connectable="0" parent="nTxmzcDtm8mqhIhiXQSY-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="действия" vertex="1">
+          <mxGeometry relative="1" x="-0.0649" y="-1" as="geometry">
+            <mxPoint x="7" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTxmzcDtm8mqhIhiXQSY-15" edge="1" parent="1" source="nTxmzcDtm8mqhIhiXQSY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nTxmzcDtm8mqhIhiXQSY-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510.06" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTxmzcDtm8mqhIhiXQSY-16" connectable="0" parent="nTxmzcDtm8mqhIhiXQSY-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="запись" vertex="1">
+          <mxGeometry relative="1" x="0.1439" y="-1" as="geometry">
+            <mxPoint x="-5" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nTxmzcDtm8mqhIhiXQSY-7" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontSize=16;fontStyle=1" value="1С: ERP (сервер)" vertex="1">
+          <mxGeometry height="50" width="100" x="460" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nTxmzcDtm8mqhIhiXQSY-9" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" value="" vertex="1">
+          <mxGeometry height="50" width="166.67" x="640" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="nTxmzcDtm8mqhIhiXQSY-10" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" value="" vertex="1">
+          <mxGeometry height="50" width="166.67" x="640" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nTxmzcDtm8mqhIhiXQSY-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="БД 1С (шифрование, аудит)" vertex="1">
+          <mxGeometry height="30" width="150" x="648.3299999999999" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="nTxmzcDtm8mqhIhiXQSY-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Журнал аудита" vertex="1">
+          <mxGeometry height="30" width="150" x="650" y="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
